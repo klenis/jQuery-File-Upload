@@ -333,6 +333,9 @@
                         }
                     }
                 });
+                
+                $element.fileupload('option', { dropZone: $element})
+                
                 // Observe option changes:
                 $scope.$watch(
                     $attrs.fileUpload,
